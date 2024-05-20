@@ -1,12 +1,12 @@
 .imagen{
   border-radius: 100%;
-  border: 2px solid black;
   float: left;
 }
 
 .contenedor{
   border: 1px solid black;
   width: 65vw;
-  padding: 15px 0px 15px 0px;
+  padding: 15px 12px 15px 20px;
   border-radius: 50px;
+  filter: drop-shadow(30px 10px 4px #414e6e);
 }
