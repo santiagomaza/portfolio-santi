@@ -1,0 +1,17 @@
+.segundo-texto{
+  font-size: 17px;
+}
+
+.pruebaTexto{
+  display: block;
+  white-space: nowrap;
+  width: 10ch;
+  overflow: hidden;
+  animation: escribir .8s steps(10) alternate;
+}
+
+@keyframes escribir{
+  from{
+    width: 0;
+  }
+}
