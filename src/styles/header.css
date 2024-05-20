@@ -1,0 +1,12 @@
+.imagen{
+  border-radius: 100%;
+  border: 2px solid black;
+  float: left;
+}
+
+.contenedor{
+  border: 1px solid black;
+  width: 65vw;
+  padding: 15px 0px 15px 0px;
+  border-radius: 50px;
+}
