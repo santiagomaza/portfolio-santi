@@ -1,8 +1,14 @@
 import { Header } from '../Components/Header'
+import { Main } from '../Components/Main'
 import '../styles/home.css'
 
-export const Home = () => {
+export const Home = (props) => {
+  const { nombreCompleto, edad, carrera, universidad, puesto } = props
+
   return (
-    <Header />
+    <>
+      <Header nombreAlumno={nombreCompleto} puesto = {puesto}/>
+      <Main nombreAlumno = {nombreCompleto} carrera = {carrera} univ = {universidad}/>
+    </>
   )
 }
