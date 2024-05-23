@@ -5,7 +5,7 @@ import thefilmzoneImg from './assets/thefilmzone.png'
 
 import 'bootstrap/dist/css/bootstrap.css'
 
-export const ecomrcProy = {
+const ecomrcProy = {
   nombreProyectoEcomRC: "eComRC",
   descripcionProyectoEcomRC: "Proyecto final individual de e-commerce realizado para la empresa Rolling Code School poniendo en práctica todos los conocimientos adquiridos.",
   tecnologiasUsadasEcomRC: "HTML, CSS, JS, Git, React, Node.js, Express.js, MongoDB",
@@ -15,7 +15,7 @@ export const ecomrcProy = {
   textoAltEcomRC: "bgeComRC"
 }
 
-export const kiosquitoelbarbaProy = {
+const kiosquitoelbarbaProy = {
   nombreProyectoKEB: "Kiosquito el Barba",
   descripcionProyectoKEB: "Proyecto final grupal realizado para una asignatura de la Universidad en primer año.",
   tecnologiasUsadasKEB: "HTML, CSS, JS, Bootstrap, Json Server",
@@ -25,7 +25,7 @@ export const kiosquitoelbarbaProy = {
   textoAltKEB: "bgeKiosquitoElBarba"
 }
 
-export const theFilmZoneProy = {
+const theFilmZoneProy = {
   nombreProyectoTFZ: "The Film Zone",
   descripcionProyectoTFZ: "Proyecto grupal realizado para Rolling Code School poniendo en practica conocimientos básicos de HTML y CSS y sumandole JavaScript.",
   tecnologiasUsadasTFZ: "HTML, CSS, JS, Bootstrap, Git, Json Server",
