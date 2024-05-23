@@ -1,0 +1,21 @@
+#logoHTML,
+#logoCSS,
+#logoJS,
+#logoBootstrap,
+#logoReact,
+#logoGit,
+#logoCs,
+#logoSQLServer
+{
+  animation: rotacion 6s infinite linear;
+}
+
+@keyframes rotacion{
+  from{
+    transform: rotateY(-360deg);
+  }
+
+  to{
+    transform: rotateY(360deg);
+  }
+}
