@@ -3,7 +3,7 @@ import { Main } from '../Components/Main'
 import '../styles/home.css'
 
 export const Home = (props) => {
-  const { nombreCompleto, edad, carrera, universidad, puesto } = props
+  const { nombreCompleto, carrera, universidad, puesto } = props
 
   return (
     <>

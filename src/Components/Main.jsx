@@ -1,8 +1,7 @@
-import '../styles/main.css'
 import { Proyectos } from './Proyectos'
-import { ecomrcProy } from '../constants/descripcionesProyectos.js'
-import { kiosquitoelbarbaProy } from '../constants/descripcionesProyectos.js'
-import { theFilmZoneProy } from '../constants/descripcionesProyectos.js'
+import { ecomrcProy, kiosquitoelbarbaProy, theFilmZoneProy } from '../constants/descripcionesProyectos'
+import '../styles/main.css'
+import { TecnologiasUsadas } from './TecnologiasUsadas'
 
 export const Main = ({ nombreAlumno, carrera, univ }) => {
   return (
@@ -13,14 +12,19 @@ export const Main = ({ nombreAlumno, carrera, univ }) => {
       </div>
       <div className='border-bottom border-dark mb-3 mt-3 w-50 m-auto'></div>
       <div className="container-fluid">
-        <span className='fst-italic fst-underlined text-uppercase text-decoration-underline subtituloProyecto mb-3'>Proyectos</span>
+        <div className="d-flex justify-content-center">
+          <span className='fst-italic fst-underlined text-uppercase text-decoration-underline subtituloProyecto mb-3'>Proyectos</span>
+        </div>
         <Proyectos {...ecomrcProy}/>
         <Proyectos {...kiosquitoelbarbaProy}/>
         <Proyectos {...theFilmZoneProy}/>
       </div>
       <div className='border-bottom border-dark mb-3 mt-3 w-50 m-auto'></div>
-      <div className="container-fluid">
+      <div className="container-fluid d-flex justify-content-center">
         <span className='fst-italic fst-underlined text-uppercase text-decoration-underline subtituloProyecto2 mb-3'>Tecnologias</span>
+      </div>
+      <div className='d-flex justify-content-center mb-2'>
+        <TecnologiasUsadas />
       </div>
     </>
   )

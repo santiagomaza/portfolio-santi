@@ -10,7 +10,7 @@ function App() {
     universidad: "Universidad Tecnológica Nacional de Tucumán",
     puesto: "Desarrollador Full-Stack"
   }
-
+  
   return (
     <>
       <Home {...Alumno}/>
