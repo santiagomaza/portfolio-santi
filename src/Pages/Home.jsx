@@ -1,5 +1,6 @@
 import { Header } from '../Components/Header'
 import { Main } from '../Components/Main'
+import { Footer } from '../Components/Footer'
 import '../styles/home.css'
 
 export const Home = (props) => {
@@ -9,6 +10,7 @@ export const Home = (props) => {
     <>
       <Header nombreAlumno={nombreCompleto} puesto = {puesto}/>
       <Main nombreAlumno = {nombreCompleto} carrera = {carrera} univ = {universidad}/>
+      <Footer />
     </>
   )
 }
