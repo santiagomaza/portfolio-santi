@@ -1,0 +1,29 @@
+.cuerpoProyecto{
+  background-color: #6374ae;
+}
+
+.segundo-texto{
+  font-size: 17px;
+}
+
+.subtituloProyecto{
+  display: block;
+  white-space: nowrap;
+  width: 10ch;
+  overflow: hidden;
+  animation: escribir .8s steps(10) alternate;
+}
+
+.subtituloProyecto2{
+  display: block;
+  white-space: nowrap;
+  width: 12ch;
+  overflow: hidden;
+  animation: escribir .8s steps(12) alternate;
+}
+
+@keyframes escribir{
+  from{
+    width: 0;
+  }
+}
